@@ -1,0 +1,34 @@
+ORBITEYE GS - MOBILE + API JAVA
+
+Este pacote tem dois projetos:
+
+1) OrbitEye-main/orbiteye
+   API Java Spring Boot com Swagger, Oracle, JWT, CRUDs e analise de risco.
+
+2) OrbitEyeMobile
+   Aplicativo React Native/Expo conectado na API Java.
+
+COMO RODAR
+
+TERMINAL 1 - API JAVA:
+cd OrbitEye-main\orbiteye
+.\mvnw.cmd spring-boot:run
+
+A API deve subir em:
+http://localhost:8080
+
+Swagger:
+http://localhost:8080/swagger-ui/index.html
+
+TERMINAL 2 - MOBILE:
+cd OrbitEyeMobile
+npm install
+npx expo start
+
+Android Emulator:
+O mobile usa http://10.0.2.2:8080 para acessar a API do PC.
+
+Celular fisico:
+Edite OrbitEyeMobile/.env e troque EXPO_PUBLIC_API_BASE_URL pelo IP do seu computador na rede, exemplo:
+EXPO_PUBLIC_API_BASE_URL=http://192.168.0.10:8080
+

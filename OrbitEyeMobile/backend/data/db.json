@@ -1,0 +1,23 @@
+{
+  "users": [
+    { "id": "user-demo-1", "name": "Aluno OrbitEye", "email": "aluno@orbiteye.app", "password": "123456" }
+  ],
+  "sessions": [],
+  "regions": [
+    { "id": "region-1", "name": "Marginal Tietê", "city": "São Paulo", "state": "SP", "latitude": -23.519, "longitude": -46.632, "population": 45000, "riskLevel": "CRITICO", "riverLevel": 4.8, "rainfall": 92, "temperature": 23, "humidity": 91, "updatedAt": "2026-06-08T12:00:00.000Z" },
+    { "id": "region-2", "name": "Centro de Franco da Rocha", "city": "Franco da Rocha", "state": "SP", "latitude": -23.321, "longitude": -46.726, "population": 18000, "riskLevel": "ALTO", "riverLevel": 3.7, "rainfall": 71, "temperature": 22, "humidity": 88, "updatedAt": "2026-06-08T12:10:00.000Z" },
+    { "id": "region-3", "name": "Zona Sul - Represa", "city": "São Paulo", "state": "SP", "latitude": -23.744, "longitude": -46.696, "population": 26000, "riskLevel": "MEDIO", "riverLevel": 2.4, "rainfall": 42, "temperature": 24, "humidity": 79, "updatedAt": "2026-06-08T12:20:00.000Z" }
+  ],
+  "alerts": [
+    { "id": "alert-1", "regionId": "region-1", "title": "Risco crítico de enchente", "description": "Nível do rio e chuva acumulada acima do limite seguro.", "level": "CRITICO", "status": "ATIVO", "createdAt": "2026-06-08T12:30:00.000Z" },
+    { "id": "alert-2", "regionId": "region-2", "title": "Possível alagamento", "description": "IA identificou tendência de aumento de risco nas próximas horas.", "level": "ALTO", "status": "ATIVO", "createdAt": "2026-06-08T12:40:00.000Z" }
+  ],
+  "climateEvents": [
+    { "id": "event-1", "regionId": "region-1", "type": "Chuva intensa", "description": "Volume de chuva acima da média histórica para a região.", "intensity": 9, "occurredAt": "2026-06-08T10:00:00.000Z" },
+    { "id": "event-2", "regionId": "region-2", "type": "Elevação de rio", "description": "Sensor indicou aumento rápido no nível do rio.", "intensity": 8, "occurredAt": "2026-06-08T11:20:00.000Z" }
+  ],
+  "predictions": [
+    { "id": "prediction-1", "regionId": "region-1", "riskLevel": "CRITICO", "confidence": 93, "summary": "Modelo IA prevê risco crítico de enchente nas próximas 3 horas.", "recommendation": "Emitir alerta para Defesa Civil e orientar evacuação preventiva em áreas baixas.", "createdAt": "2026-06-08T12:45:00.000Z" },
+    { "id": "prediction-2", "regionId": "region-2", "riskLevel": "ALTO", "confidence": 86, "summary": "Risco alto por combinação de chuva acumulada e umidade elevada.", "recommendation": "Monitorar sensores e preparar comunicação para moradores.", "createdAt": "2026-06-08T12:50:00.000Z" }
+  ]
+}

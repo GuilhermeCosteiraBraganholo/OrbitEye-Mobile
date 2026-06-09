@@ -1,0 +1,13 @@
+{
+  "expo": {
+    "name": "OrbitEye",
+    "slug": "orbiteye-mobile",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "scheme": "orbiteye",
+    "userInterfaceStyle": "light",
+    "extra": {
+      "commitHash": "DEV-COMMIT-HASH"
+    }
+  }
+}
