@@ -32,3 +32,25 @@ Celular fisico:
 Edite OrbitEyeMobile/.env e troque EXPO_PUBLIC_API_BASE_URL pelo IP do seu computador na rede, exemplo:
 EXPO_PUBLIC_API_BASE_URL=http://192.168.0.10:8080
 
+CREDENCIAIS DE TESTE DO APP
+
+Use uma das contas abaixo para acessar o OrbitEye Mobile:
+
+1) Administrador
+Email: joao@orbiteye.com
+Senha: 123456
+
+2) Operador
+Email: maria@orbiteye.com
+Senha: 123456
+
+3) Operador
+Email: carlos@orbiteye.com
+Senha: 123456
+
+4) Analista
+Email: usuario5@orbiteye.com
+Senha: 123456
+
+Observação:
+As credenciais acima já existem na API Java e podem ser usadas para testar o login real do aplicativo.
