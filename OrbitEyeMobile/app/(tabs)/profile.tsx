@@ -32,7 +32,7 @@ export default function ProfileScreen() {
         <Text style={styles.cardTitle}>Sobre o App</Text>
         <Text style={styles.text}>OrbitEye Mobile — Global Solution 2026/1</Text>
         <Text style={styles.text}>Tema: economia espacial aplicada à prevenção de desastres.</Text>
-        <Text style={styles.hash}>Commit: {env.commitHash}</Text>
+        <Text style={styles.hash}>Commit:5cd9c81 {env.commitHash}</Text>
       </Card>
       <View style={{ height: 8 }} />
       <PrimaryButton label="Sair" onPress={handleLogout} />
