@@ -7,7 +7,17 @@
     "scheme": "orbiteye",
     "userInterfaceStyle": "light",
     "extra": {
-      "commitHash": "DEV-COMMIT-HASH"
-    }
+      "commitHash": "DEV-COMMIT-HASH",
+      "eas": {
+        "projectId": "b089133c-2951-4c0e-a4d2-fb366974f1b9"
+      }
+    },
+    "android": {
+      "package": "com.orbiteye.mobile"
+    },
+    "plugins": [
+      "expo-font",
+      "expo-secure-store"
+    ]
   }
 }
